@@ -3,7 +3,7 @@ dependencies = ['torch']
 
 def hello():
 
-    print('hello')
+	return 'hello'
 
 def welcome():
     
