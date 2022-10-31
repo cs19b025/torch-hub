@@ -192,7 +192,7 @@ class MyCnnDynamic(nn.Module):
 
 
 
-def train_dynamic_config(config, H, W, num_classes, train_loader):
+def train_dynamic_config(config, H, W, num_classes, train_loader, test_loader):
 	
 	model = MyCnnDynamic(config, H, W, num_classes)
 	model = model.to(device)
