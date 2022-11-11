@@ -72,6 +72,7 @@ def metrics(model, data_loader):
 
 
 
+
 def loss_fn(pred, y):
 
   y_true = F.one_hot(y, num_classes = 10)
