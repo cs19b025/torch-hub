@@ -68,7 +68,7 @@ def metrics(model, data_loader):
     recall_val = recall_score(y, preds, average='macro')
     f1score_val = f1_score(y, preds, average='macro')
 
-    print(accuracy_val, precision_val, recall_val, f1score_val)
+    print(f'accuracy: {accuracy_val}, precision: {precision_val}, recall: {recall_val}, f1_score: {f1score_val}')
 
 
 
